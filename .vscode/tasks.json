@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit on port 8502",
+			"type": "shell",
+			"command": "C:\\Users\\shrey\\OneDrive\\Desktop\\auto-insight-engine\\venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py",
+				"--server.headless",
+				"true",
+				"--server.port",
+				"8502"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Streamlit on 8502",
+			"type": "shell",
+			"command": "c:\\Users\\shrey\\OneDrive\\Desktop\\auto-insight-engine\\venv\\Scripts\\python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py",
+				"--server.headless",
+				"true",
+				"--server.port",
+				"8502"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
